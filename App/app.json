@@ -1,0 +1,32 @@
+{
+  "id": "155ddaac-f022-4e58-b59a-5e869e34bbe7",
+  "name": "Permissions Demo",
+  "publisher": "fluxxus.nl",
+  "version": "1.0.0.0",
+  "brief": "Extension demoing the various BC21 features for setting up permissions",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "./assets/logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 57100,
+      "to": 57149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

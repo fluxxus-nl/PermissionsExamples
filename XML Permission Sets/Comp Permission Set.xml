@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PermissionSets Version="2.0">
+  <TenantPermissionSet AppID="{00000000-0000-0000-0000-000000000000}" RoleID="COMP PERMISSION SET" RoleName="Composed permission set" Assignable="Yes">
+    <TenantPermissionSetRel>
+      <ObjectType>Include</ObjectType>
+      <ObjectRelatedScope>Tenant</ObjectRelatedScope>
+      <ObjectRelatedRoleId>A PERMISSION SET</ObjectRelatedRoleId>
+      <ObjectRelatedAppId>{00000000-0000-0000-0000-000000000000}</ObjectRelatedAppId>
+    </TenantPermissionSetRel>
+    <TenantPermissionSetRel>
+      <ObjectType>Include</ObjectType>
+      <ObjectRelatedScope>Tenant</ObjectRelatedScope>
+      <ObjectRelatedRoleId>ANOTHER PERM SET</ObjectRelatedRoleId>
+      <ObjectRelatedAppId>{00000000-0000-0000-0000-000000000000}</ObjectRelatedAppId>
+    </TenantPermissionSetRel>
+    <TenantPermission>
+      <ObjectType>Table Data</ObjectType>
+      <ObjectID>5</ObjectID>
+      <ReadPermission>Yes</ReadPermission>
+      <InsertPermission>Yes</InsertPermission>
+      <ModifyPermission>Yes</ModifyPermission>
+      <DeletePermission>Yes</DeletePermission>
+    </TenantPermission>
+  </TenantPermissionSet>
+</PermissionSets>

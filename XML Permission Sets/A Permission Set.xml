@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PermissionSets Version="2.0">
+  <TenantPermissionSet AppID="{00000000-0000-0000-0000-000000000000}" RoleID="A PERMISSION SET" RoleName="A permission set" Assignable="Yes">
+    <TenantPermission>
+      <ObjectType>Table Data</ObjectType>
+      <ObjectID>3</ObjectID>
+      <ReadPermission>Yes</ReadPermission>
+      <InsertPermission>Yes</InsertPermission>
+      <ModifyPermission>Yes</ModifyPermission>
+      <DeletePermission>Yes</DeletePermission>
+    </TenantPermission>
+  </TenantPermissionSet>
+</PermissionSets>
