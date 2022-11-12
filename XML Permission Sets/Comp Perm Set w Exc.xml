@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<PermissionSets Version="2.0">
+  <PermissionSet AppID="{155DDAAC-F022-4E58-B59A-5E869E34BBE7}" RoleID="COMP PERM SET W EXCL" RoleName="Composed permission set with e" Assignable="Yes">
+    <PermissionSetRel>
+      <ObjectType>Include</ObjectType>
+      <ObjectRelatedRoleId>A PERMISSION SET</ObjectRelatedRoleId>
+      <ObjectRelatedAppId>{155DDAAC-F022-4E58-B59A-5E869E34BBE7}</ObjectRelatedAppId>
+    </PermissionSetRel>
+    <PermissionSetRel>
+      <ObjectType>Exclude</ObjectType>
+      <ObjectRelatedRoleId>A PERMISSION SET 2</ObjectRelatedRoleId>
+      <ObjectRelatedAppId>{155DDAAC-F022-4E58-B59A-5E869E34BBE7}</ObjectRelatedAppId>
+    </PermissionSetRel>
+    <PermissionSetRel>
+      <ObjectType>Include</ObjectType>
+      <ObjectRelatedRoleId>ANOTHER PERM SET</ObjectRelatedRoleId>
+      <ObjectRelatedAppId>{155DDAAC-F022-4E58-B59A-5E869E34BBE7}</ObjectRelatedAppId>
+    </PermissionSetRel>
+    <Permission>
+      <ObjectType>Table Data</ObjectType>
+      <ObjectID>5</ObjectID>
+      <ReadPermission>Yes</ReadPermission>
+      <InsertPermission>Yes</InsertPermission>
+      <ModifyPermission>Yes</ModifyPermission>
+      <DeletePermission>Yes</DeletePermission>
+    </Permission>
+  </PermissionSet>
+</PermissionSets>
